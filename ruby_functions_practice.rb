@@ -19,7 +19,7 @@ def subtract(first, second)
 end
 
 def multiply(num_1, num_2)
-    num_1 * num_2
+    return num_1 * num_2
 end
 
 def divide(num_1, num_2)
@@ -57,5 +57,3 @@ end
 def fahrenheit_to_celcius(fahrenheit)
     return (fahrenheit - 32) * 5/9
 end
-
-puts fahrenheit_to_celcius(65)
